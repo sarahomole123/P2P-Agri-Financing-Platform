@@ -17,6 +17,10 @@ epoch = 3.1
 path = 'contracts/crop-insurance-pool.clar'
 clarity_version = 3
 epoch = 3.1
+[contracts.weather-oracle]
+path = 'contracts/weather-oracle.clar'
+clarity_version = 3
+epoch = 3.1
 [repl.analysis]
 passes = ['check_checker']
 
