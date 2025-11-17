@@ -1,0 +1,44 @@
+[project]
+name = 'P2P-Agri-Financing-Platform'
+description = ''
+authors = []
+telemetry = true
+cache_dir = '.\.cache'
+requirements = []
+[contracts.P2P-Agri-Financing-Platform]
+path = 'contracts/P2P-Agri-Financing-Platform.clar'
+clarity_version = 3
+epoch = 3.1
+[contracts.loan-milestones]
+path = 'contracts/loan-milestones.clar'
+clarity_version = 3
+epoch = 3.1
+[contracts.crop-insurance-pool]
+path = 'contracts/crop-insurance-pool.clar'
+clarity_version = 3
+epoch = 3.1
+[contracts.weather-oracle]
+path = 'contracts/weather-oracle.clar'
+clarity_version = 3
+epoch = 3.1
+[contracts.farmer-credit-scoring]
+path = 'contracts/farmer-credit-scoring.clar'
+clarity_version = 3
+epoch = 3.1
+[contracts.farmer-badges]
+path = 'contracts/farmer-badges.clar'
+clarity_version = 3
+epoch = 3.1
+
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
+
+[repl.remote_data]
+enabled = false
+api_url = 'https://api.hiro.so'
