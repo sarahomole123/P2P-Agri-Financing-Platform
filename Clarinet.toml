@@ -25,6 +25,11 @@ epoch = 3.1
 path = 'contracts/farmer-credit-scoring.clar'
 clarity_version = 3
 epoch = 3.1
+[contracts.farmer-badges]
+path = 'contracts/farmer-badges.clar'
+clarity_version = 3
+epoch = 3.1
+
 [repl.analysis]
 passes = ['check_checker']
 
